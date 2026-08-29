@@ -23,7 +23,7 @@
 }
 
 .info__2debe::after {
-  content: "ClearVision" " " "7.0.1";
+  content: "" " " "";
   color: var(--text-muted);
   font-size: 12px;
   line-height: 1.3333333333;
@@ -519,8 +519,8 @@ code {
   background-color: var(--background-mod-subtle);
 }
 
-.numberBadge__2b1f5,
-.textBadge__2b1f5 {
+.numberBadge__463b7,
+.textBadge__463b7 {
   background: var(--hsl-main-color) !important;
   color: var(--text-strong);
 }
@@ -641,6 +641,10 @@ code {
 
 .toolbar_bba883::before {
   border-top-color: var(--hsl-popout-shading);
+}
+
+.formWithLoadedChatInput_f75fb0:before {
+  content: none;
 }
 
 .wrapper_cb9592,
@@ -861,8 +865,8 @@ code {
   border: none;
 }
 
-.progressBar__45530 {
-  background: var(--hsl-main-color) !important;
+.fill__55b14 {
+  background: var(--hsl-main-color);
 }
 
 .wrapper_d5f3cd {
@@ -1220,6 +1224,23 @@ code {
 }
 
 :is(.reaction__23977,.reactionBtn__23977):hover {
+  border: 1px solid var(--hsl-hover-color);
+}
+
+.reactions_f8896c {
+  border-radius: 4px;
+}
+
+.reactions_f8896c .reactionMe_f8896c {
+  background: hsl(from var(--hsl-main-color) h s l/0.15);
+  border-color: var(--hsl-main-color);
+}
+
+.reactions_f8896c .reactionMe_f8896c .reactionCount_f8896c {
+  color: var(--interactive-text-active);
+}
+
+:is(.reaction_f8896c,.reactionBtn_f8896c):hover {
   border: 1px solid var(--hsl-hover-color);
 }
 
@@ -2272,6 +2293,17 @@ code {
   background: rgba(0,0,0,0) !important;
 }
 
+.page__1add6 {
+  background-color: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.4));
+  border: none;
+}
+
+.guildSidebar__1add6,
+.header__1add6,
+.channel__1add6 {
+  background: none;
+}
+
 .wrapper__4e6ce {
   background: rgba(0,0,0,0);
 }
@@ -2356,74 +2388,37 @@ code {
   background: var(--hsl-main-color);
 }
 
-.recentMentionsPopout__95796 {
+.container__8cb2e {
   background: var(--hsl-popout-shading);
   box-shadow: none;
 }
 
-.header_ab6641 {
+.header__06f80 {
   background: rgba(0,0,0,0);
 }
 
-.channelHeader__35a7e {
-  background: hsl(from var(--hsl-main-color) h s l/0.8);
+.box__376cb {
+  background: var(--background-mod-subtle);
+}
+
+.channelHeader__5d903 {
+  background: var(--hsl-popout-shading);
   padding-left: 20px;
   padding-right: 6px;
-  border-radius: 8px;
 }
 
-.guildIcon__35a7e {
-  background-color: var(--hsl-card-shading);
-}
-
-.icon_d404a3 {
+.icon__319e1 {
   background: var(--hsl-main-color);
   color: var(--interactive-icon-active);
 }
 
-.jumpButton_ed0c8c {
-  background: var(--hsl-main-color);
-  border: none;
-}
-
-.jumpButton_ed0c8c:hover {
-  background: var(--hsl-hover-color);
-}
-
-.container__0f711 {
-  background: rgba(0,0,0,0);
-}
-
-.maskBackground_db811b {
-  background: var(--hsl-main-color) !important;
-}
-
-.tutorial__2692d {
+.tutorial_d15d9e {
   background: var(--hsl-card-shading);
 }
 
-.tutorialIcon__2692d {
+.tutorialIcon_d15d9e {
   background: var(--hsl-main-color);
   color: var(--icon-strong);
-}
-
-.messages__1ccd1 {
-  background: var(--hsl-card-shading);
-  border: none;
-}
-
-.collapseButton__35a7e {
-  left: 0;
-}
-
-.container__95796 {
-  margin-left: 16px;
-}
-
-.messageContainer__95796 {
-  background: var(--hsl-card-shading);
-  border: none;
-  margin: 0;
 }
 
 .menu_c1e9c4 {
@@ -2501,27 +2496,13 @@ code {
   fill: var(--hsl-main-color);
 }
 
-.tooltipPrimary_c36707 {
+.tooltip_fa450d {
   background-color: var(--hsl-popout-shading);
   border: none;
 }
 
-.tooltipPrimary_c36707 .tooltipPointer_c36707 {
-  border-top-color: var(--hsl-popout-shading);
-}
-
-.tooltipPrimary_c36707 .tooltipPointer_c36707::before,
-.tooltipPrimary_c36707 .tooltipPointer_c36707::after {
-  display: none;
-}
-
-.tooltipBrand_c36707 {
-  background-color: var(--hsl-main-color);
-  border: none;
-}
-
-.tooltipBrand_c36707 .tooltipPointer_c36707 {
-  border-top-color: var(--hsl-main-color);
+.caretIcon_fa450d .caretFill_fa450d {
+  fill: var(--hsl-popout-shading);
 }
 
 .contentWrapper__08434 {
@@ -2625,17 +2606,17 @@ code {
   background: var(--hsl-main-color);
 }
 
-.messagesPopoutWrap_e8b59c {
+.messagesPopoutWrap__432f4 {
   background: var(--hsl-popout-shading);
   box-shadow: none;
 }
 
-.header_e8b59c,
-.footer_e8b59c {
+.header__432f4,
+.footer__432f4 {
   background: rgba(0,0,0,0);
 }
 
-.messageGroupWrapper_e8b59c {
+.messageGroupWrapper__432f4 {
   background: var(--background-mod-subtle);
   border: none;
 }
@@ -2886,6 +2867,7 @@ code {
   background: var(--user-popout-image) var(--user-popout-position)/var(--user-popout-size) no-repeat;
   background-attachment: var(--user-popout-attachment);
   filter: var(--user-popout-filter);
+  border-radius: inherit;
   z-index: -1;
 }
 
@@ -2897,6 +2879,7 @@ code {
   background: var(--user-modal-image) var(--user-modal-position)/var(--user-modal-size) no-repeat;
   background-attachment: var(--user-modal-attachment);
   filter: var(--user-modal-filter);
+  border-radius: inherit;
   z-index: -1;
 }
 
@@ -2998,12 +2981,28 @@ code {
   background: var(--user-profile-note-background-focus);
 }
 
-.user-profile-sidebar:not(.custom-user-profile-theme) {
+.profilePopout__1add6 {
+  background: var(--hsl-popout-shading);
+}
+
+.profileAvatar__1add6 {
+  border: none;
+}
+
+.outer_c0bea0.user-profile-sidebar-redesign:not(.custom-user-profile-theme) {
   background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.3));
 }
 
 .footerButton__272c7 {
   background: rgba(0,0,0,0);
+}
+
+.aside_f58343 {
+  background: rgba(0,0,0,0);
+}
+
+.panel_b08638 {
+  background: var(--hsl-popout-shading);
 }
 
 .outer_c0bea0:not(.custom-user-profile-theme) .role_dfa8b6 {
@@ -3731,11 +3730,7 @@ code {
   background: var(--hsl-main-color);
 }
 
-:is(.theme-light,.theme-dark) .button_e131a9.buttonColor_e131a9 {
-  border-radius: 8px;
-}
-
-.button_e131a9.buttonColor_e131a9:hover {
+:is(.theme-light,.theme-dark) .button_e131a9.buttonColor_e131a9:hover {
   background: var(--hsl-hover-color);
 }
 
@@ -3846,11 +3841,11 @@ code {
   background: var(--hsl-main-color);
 }
 
-.iconBadge__2b1f5 {
+.iconBadge__650eb {
   background: var(--hsl-popout-shading);
 }
 
-.iconBadge__2b1f5.isCurrentUserConnected__650eb {
+.iconBadge__650eb.isCurrentUserConnected__650eb {
   background: var(--hsl-main-color);
 }
 
