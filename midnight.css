@@ -1469,7 +1469,7 @@ body {
     }
     .container__3f21e.checked__3f21e /* settings checkbutton background */,
     .vc-switch-container.vc-switch-checked {
-        background-color: var(--accent-2) !important;
+        background-color: var(--accent-2);
     }
     .container__3f21e .slider__3f21e > svg > path /* settings checkbutton check */,
     .vc-switch-container .vc-switch-slider > svg > path {
